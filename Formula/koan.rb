@@ -1,10 +1,10 @@
 class Koan < Formula
   desc "Bit-perfect music player with TUI, gapless playback, and Subsonic support"
   homepage "https://github.com/radiosilence/koan"
-  version "0.71.1"
+  version "0.71.3"
   license "MIT"
   url "https://github.com/radiosilence/koan/releases/download/v#{version}/koan-macos-arm64.tar.gz"
-  sha256 "9e34a477300812dea85bbd939ef1962d02226ddc9d999c7426d4755f5feff3db"
+  sha256 "9d472baeb681148cf6fcb7eef0dd243e22491a706f76e03dfadd19cf598e8191"
   depends_on arch: :arm64
   def install
     bin.install "koan"
