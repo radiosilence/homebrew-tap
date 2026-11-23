@@ -1,6 +1,6 @@
 cask "sbr" do
-  version "0.4.2"
-  sha256 "93db2cb1539133f28ea9f8bb0fb048f022255ef2b671e50fd134454147b5e352"
+  version "0.5.0"
+  sha256 "f75490f42b8c83f088451a0ec0fda34d9e5d4c5ee838b3fad2130464b799b19b"
 
   url "https://github.com/radiosilence/sbr/releases/download/v#{version}/sbr-#{version}.dmg"
   name "sbr"
