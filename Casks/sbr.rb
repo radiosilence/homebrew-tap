@@ -7,7 +7,7 @@ cask "sbr" do
   desc "Proxy client compatible with sing-box configurations"
   homepage "https://sbr.blit.cc"
 
-  depends_on macos: :sequoia
+  depends_on macos: :tahoe
 
   app "sbr.app"
 
